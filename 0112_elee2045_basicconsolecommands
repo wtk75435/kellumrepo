@@ -1,0 +1,39 @@
+%Basic commands Inside of Terminal
+%inside of apple's terminal
+
+pwd %
+ls %shows absolute folders in current directory
+man ls
+quit()
+ls - a
+ls - al %
+ls - pal %shows information inside files on pwd
+cd %change directory
+cd Desktop/ %using 'tab' will autocomplete the information
+cd .. %back to previous folder
+. %short hand for current working directry
+.. %short hand for previous working directory
+~ %short hand for home 
+cd ~ %takes you home
+mkdir 'name' %makes folder in current directory
+touch 'name' %creates file, updates time stamp
+
+mv 'oldname' 'newname'  %used to rename exisiting fuile
+mv 'olddiretory/filename' 'newdirectory' %move file from driectory
+mv 'filename'* temp %start moves %move everything out of directory
+
+cp 'nameofexisting' 'nameofcreatedcopy' %creates copy of file
+cp 'nameofexst' 'directory/nameofcreatedcopy' %creates copy of file and moves it
+
+rm 'filetoremove' %%
+rm * %remove ALL files in the current directory 
+rm -rf 'directory' %%delete any folder %%WARNING CAN DELETE HARD DRIVE
+
+git %pulls up git directions
+%git will allow us to pull off of github, make changes, and 
+
+
+
+%difference in absolute and relative pathes
+%define shell
+shows the file type (IE txt, doc, cvc) %define file name extension
