@@ -1,0 +1,17 @@
+//computer opens normally and displays (base)
+//if not, you need to run miniconda
+python //typing this will put you into python
+quit() //takes you back out of python terminal
+python --version //shows the version you have
+
+python
+print("hello world") //string literal
+a = 3
+b=6
+a+b
+//python displays 9
+
+nano app.py
+python app.py //executes the python file
+code . //opens up visual studio code .
+//if not go to visual studios and open file
