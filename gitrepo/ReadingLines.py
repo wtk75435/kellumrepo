@@ -32,3 +32,12 @@ while True: #continue loop until break ##if no false statment is located. it wil
     if num>5:
         file_numbers.append(num**2)
 file_handle.close()
+
+#user input
+while True:
+    user_input=input("guess a number")
+    if user_input=="q":
+        print("goodbyte")
+        break
+    print("your input was", user_input, "guess again. input q to leave")
+
