@@ -1,25 +1,18 @@
-from bitarray import test
+ELEE 2045 - Python tips and Tricks
+//inside of terminal
+//cd to the folder that has python file
+python 'file name'.py
+//this will run the code in terminal
 
+//add red dot to 'for loop'
+//run and debug will step through code to find problems
 
-print("Go Dawgs")
-the_score=33.18 #using underscores are refered to as snake lettering
-print(the_score) # comment symbol
-"comment symbols"
-test_list=[1,2,3,5,4,6]
-
-#for loop examples
-for i in range (0, len(test_list)) :
-    print(i, test_list[i])
-
-for item in test_list:
-    print(item)
-
-for index in range(0,len(test_list)):
-    print(test_list[index])
-'''
-block 
-comment
-'''
+//Interation. has one number and continues to add 1 to the number each time
+//this keeps from having a large list. instead has a function
+test_list={32,33,34,35,36}
+for index in range(0,len(test_list)): //len=length function
+	print(index, test_list[index]) //index will show 0,1,2
+//Notes from visual 
 #sampling a list
 print(test_list)#whole list
 print(test_list[3]) #single entry
@@ -54,4 +47,3 @@ print(numbers)
 for i in range(0,11):
     numbers[i]=numbers[i]**2
 print(numbers)
-

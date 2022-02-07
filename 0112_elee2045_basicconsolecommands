@@ -37,3 +37,65 @@ git %pulls up git directions
 %difference in absolute and relative pathes
 %define shell
 shows the file type (IE txt, doc, cvc) %define file name extension
+
+%January 24th Notes
+%into specific file in gitrepo
+git branch -M main
+%%%add , commit , push %%make changes from local to github. Git add doesn't add to repo it adds to staging
+git add . %add everything at once to staging area
+pull %pull down from github to local
+git reset %unstage all added files
+
+touch a.txt %create two txt files into the repo
+touch b.txt
+
+git commit %open an editor (vi) for what is in the "box". Edit mode and Command mode. insert ':q!' to leave editor
+%we will use nano instead of vi. exit with crtl + x
+git config --global core.editor nano
+git config -- global user.name "Your name"
+git config --global user.email "your email"
+git config --global -1 %shows list of information into your configuration information
+%commit messages should describe the difference of old code to new code
+
+git commit %inside of nano type commit
+'hit ctrl + x and save the info'
+git push %will send all files and commits to github
+git log %show what commits have been made to branch
+
+rem 'file name' %take file out of folder
+git status %staging of removing a file
+git add . %will send the changes
+git commit -m "your message about what was done"
+git push %send commands to github
+
+git --hard %will get rid of all stagings
+
+%%%%creating Repository and pulling from Github
+git clone ssh 'give another name
+touch afile.py
+git add .
+git commit -m "commit"
+git push
+
+git pull %will be up to date
+cd ..
+cd "to other clone"
+git pull
+%now both will be up to date
+
+python "filename.py" %run file name
+
+%if new work is done, while you are working or before you start
+git pull %you will be able to see changes compared to your code on each file
+
+
+%%%create a new branch in github for code
+git checkout -b test %git a new branch from git 
+touch bfile.py
+git add .
+git commit -m "test branch"
+git checkout main %go back to other branch "main"
+git merge "branchfrom" %if you are in a branch, bring the stuff from another into it
+git push -u origin test %push new code into a new branch of github named "test"
+
+

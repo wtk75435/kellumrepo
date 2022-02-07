@@ -1,0 +1,18 @@
+git clone "github ssh key"
+cd Desktop/ %go wherever you stored you github ssh key repo at
+cd elee2045/
+cd gitrepo/
+cd assignment-1-wtk75435/
+nano README.md
+%make edits on file
+
+%add selfie into repository
+%drag and drop the same image into issues tab on github
+%this will give you a URL that you will copy and paste into the README.md file
+%when viewing the README.md your picture will display on github
+
+git add .
+git commit -m "say what you did"
+git status %show what is being staged
+git push %send it to github
+
